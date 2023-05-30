@@ -61,7 +61,7 @@ def generate_prime(bits):
 
 
 #step 1:  Generate two random prime numbers p and q with a specified number of bits
-bits = 15  # Specify the desired number of bits for p and q
+bits = 1024  # Specify the desired number of bits for p and q
 p = generate_prime(bits)
 q = generate_prime(bits)
 
